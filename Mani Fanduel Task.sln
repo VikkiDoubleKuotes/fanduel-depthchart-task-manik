@@ -1,0 +1,52 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthChart", "src\DepthChart\DepthChart.csproj", "{72BAAFA6-3F1C-78B8-E138-40FFC58871AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthChart.Api", "src\DepthChart.Api\DepthChart.Api.csproj", "{D03FCC82-3963-6C8A-A0C9-58668043F6E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthChart.IntegrationTests", "tests\DepthChart.IntegrationTests\DepthChart.IntegrationTests.csproj", "{D377E2CD-6C4A-DB06-5CA9-76FDD8FEFE4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthChart.Tests", "tests\DepthChart.Tests\DepthChart.Tests.csproj", "{41D98385-928C-1FAB-6033-3A2BA0D74FD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72BAAFA6-3F1C-78B8-E138-40FFC58871AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BAAFA6-3F1C-78B8-E138-40FFC58871AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BAAFA6-3F1C-78B8-E138-40FFC58871AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BAAFA6-3F1C-78B8-E138-40FFC58871AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D03FCC82-3963-6C8A-A0C9-58668043F6E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03FCC82-3963-6C8A-A0C9-58668043F6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03FCC82-3963-6C8A-A0C9-58668043F6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03FCC82-3963-6C8A-A0C9-58668043F6E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D377E2CD-6C4A-DB06-5CA9-76FDD8FEFE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D377E2CD-6C4A-DB06-5CA9-76FDD8FEFE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D377E2CD-6C4A-DB06-5CA9-76FDD8FEFE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D377E2CD-6C4A-DB06-5CA9-76FDD8FEFE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D98385-928C-1FAB-6033-3A2BA0D74FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D98385-928C-1FAB-6033-3A2BA0D74FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D98385-928C-1FAB-6033-3A2BA0D74FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D98385-928C-1FAB-6033-3A2BA0D74FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72BAAFA6-3F1C-78B8-E138-40FFC58871AB} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{D03FCC82-3963-6C8A-A0C9-58668043F6E7} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{D377E2CD-6C4A-DB06-5CA9-76FDD8FEFE4B} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+		{41D98385-928C-1FAB-6033-3A2BA0D74FD9} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A64882D-FE7D-4558-B45B-FC7ED7B140ED}
+	EndGlobalSection
+EndGlobal
